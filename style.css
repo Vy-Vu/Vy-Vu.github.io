@@ -1,0 +1,53 @@
+body { 
+    background-image: url(background1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color:#ff6666;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: larger;
+    color: black;
+}
+
+#nav {
+    list-style-type: none;
+    margin:-8px;
+    padding:0;
+    overflow: hidden;
+}
+
+#nav li {
+    float:left;
+}
+
+#nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+#nav li a:hover{
+    text-shadow:2px 2px 8px #555555;
+}
+
+#content{ 
+    border: brown solid 2px;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+table {
+    margin: auto;
+}
+#content ul, #content ol {
+    width: 25%;
+    margin: auto;
+}
